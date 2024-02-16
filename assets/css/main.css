@@ -4047,3 +4047,27 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }
+
+.photos section {
+  background: none !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .photos section {
+    background: none !important;
+    border: none !important;
+  }
+}
+
+.photos section img {
+  height: 600px;
+  width: auto;
+  margin: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.photos .button {
+  margin-left: 38px !important;
+  margin-bottom: 38px !important;
+}
