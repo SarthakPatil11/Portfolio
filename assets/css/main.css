@@ -1940,11 +1940,11 @@ button,
   -webkit-transition: border-color 0.2s ease;
   -ms-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-  background-color: transparent;
+  background-color: #ffeb53d3;
   border: solid 1px !important;
   border-color: rgba(255, 255, 255, 0.15) !important;
   border-radius: 3em;
-  color: #ffffff !important;
+  color: #000000 !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -3946,8 +3946,9 @@ body.is-preload #sidebar nav ul li {
 
 #sidebar .inner .submit {
   margin: 5px;
-  background-color: rgb(255, 235, 83);
-  color: rgb(49 36 80) !important;
+  border-color: #ffeb53 !important;
+  background-color: transparent;
+  color: rgb(255, 255, 255) !important;
 }
 
 @media screen and (max-width: 1280px) {
