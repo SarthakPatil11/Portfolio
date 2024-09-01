@@ -446,6 +446,13 @@ hr.major {
   text-align: right;
 }
 
+.badge{
+  background-color: rgb(0, 68, 228);
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 12px;
+}
+
 /* Row */
 
 .row {
